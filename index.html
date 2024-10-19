@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gen AI 101: Zero to Hero</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="If you’re reading this, chances are you’ve come across the term Generative AI . In fact, who hasn’t? It’s everywhere these days! According to Google Ngram, the mention of "Generative AI" has surged by over 1200% in the last five years. But if you're like I was not too long ago—curious but unsure where to begin—then you’re in the right ">
+    <link rel="stylesheet" href="theme.css">
+    <style>
+    
+.normal_text {
+font-family: Arial;
+font-size: 11.0PT;
+color: #000000;
+line-height: 1.15;
+direction: ltr;
+}
+h1 {
+font-size: 20.0PT;
+padding-top: 20.0PT;
+padding-bottom: 6.0PT;
+direction: ltr;
+}
+h2 {
+font-size: 16.0PT;
+padding-top: 18.0PT;
+padding-bottom: 6.0PT;
+direction: ltr;
+}
+h3 {
+font-size: 14.0PT;
+color: #434343;
+padding-top: 16.0PT;
+padding-bottom: 4.0PT;
+direction: ltr;
+}
+h4 {
+font-size: 12.0PT;
+color: #666666;
+padding-top: 14.0PT;
+padding-bottom: 4.0PT;
+direction: ltr;
+}
+h5 {
+font-size: 11.0PT;
+color: #666666;
+padding-top: 12.0PT;
+padding-bottom: 4.0PT;
+direction: ltr;
+}
+h6 {
+font-size: 11.0PT;
+color: #666666;
+font-style: italic;
+padding-top: 12.0PT;
+padding-bottom: 4.0PT;
+direction: ltr;
+}
+.title {
+font-size: 26.0PT;
+padding-bottom: 3.0PT;
+direction: ltr;
+}
+.subtitle {
+font-family: Arial;
+font-size: 15.0PT;
+color: #666666;
+padding-bottom: 16.0PT;
+direction: ltr;
+}
+
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="hamburger-menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav>
+    <ul>
+        <li><a href="index.html">Gen AI 101: Zero to Hero</a></li>
+    </ul>
+    </nav>
+</header>
+<div class="content"clear: both; overflow: auto; ">
+<div style="clear: both;">&nbsp;</div><br><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style='color: #000000; '><strong>Introduction
+</strong></span></h3><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>If you’re reading this, chances are you’ve come across the term </span><span style=''><em>Generative AI</em></span><span style=''>. In fact, who hasn’t? It’s everywhere these days! According to Google Ngram, the mention of "Generative AI" has surged by over 1200% in the last five years. But if you're like I was not too long ago—curious but unsure where to begin—then you’re in the right place.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Now, I won’t go into why </span><span style=''><em>Generative AI</em></span><span style=''> matters, because by now, you’ve probably heard plenty. What I will say is that while </span><span style=''><em>Generative AI</em></span><span style=''> comes with incredible possibilities, it also has its limitations and room for growth. This document is designed to help you understand where those possibilities lie and how you can tap into them to better inform your own ideas.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>I’m not claiming to be an expert, but I’m not a complete novice either—I’m somewhere in between. My goal is to help others reach new heights in this exciting field faster than I did. And, add value by offering a clear learning path and connecting you to experts where necessary, to help deepen your understanding on specific topics. The insights in this guide may not fit every learning style, but I hope they offer value and clarity to most.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>In this document, I’ve carefully curated topics to give you a clear pathway to understanding </span><span style=''><em>Generative AI</em></span><span style=''>. For certain topics, I’ve provided resources tailored to different levels of interest and expertise:
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>High-Level Overview</strong></span><span style=''>: For those looking for a quick understanding.
+</span></li><li><span style=''><strong>Medium Depth</strong></span><span style=''>: For people who want to dig deeper but stop short of advanced theory.
+</span></li><li><span style=''><strong>In-Depth Resources</strong></span><span style=''>: For researchers or those wanting to explore the nuances in great detail.
+</span></li></ul><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>So, why start this journey into Generative AI? Because by completing all parts of this guide, you’ll be well-prepared to catch the AI train before it leaves the station, empowering you to build your own exciting projects and innovations that could shape the future.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Feel free to reach out with any questions or suggestions for additional topics that would benefit the broader audience. Let’s get started on your journey into </span><span style=''><em>Generative AI</em></span><span style=''>.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style='font-size: 12.0PT; '><strong>Table of Contents
+</strong></span></p><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></h3><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></h3><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>What is Artificial Intelligence, Machine Learning, Deep Learning, Generative AI?
+</span></h3><p class="normal_text" style='direction: ltr; '><span style=''>Let’s start by clearing up these buzzwords that are often thrown around interchangeably but mean quite different things. I have provided a link to a video that will break them down step by step, using simple analogies and practical examples.</span><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><h3 style='direction: ltr; '><span style=''>Learning Types: Supervised, Unsupervised, Reinforcement Learning (with Business Examples)
+</span></h3><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>The last video beautifully explained the nuances between the terms Artificial Intelligence, Machine Learning, Deep Learning, and Generative AI. Now, let’s dive deeper into the types of learning in machine learning, which are crucial for understanding how these technologies can be applied in real-world scenarios. Our goal here is to enhance our knowledge and get closer to grasping the potential of </span><span style=''><em>Generative AI</em></span><span style=''>.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>For those who love learning via video, </span><span style='color: #1155cc; '><a href="https://www.youtube.com/watch?v=1FZ0A1QCMWc" style="color: #1155cc; ">here is a clip</a></span><span style=''> that summarizes these concepts visually.
+</span></p><h4 style='padding-top: 12.0PT; padding-bottom: 2.0PT; direction: ltr; '><span style='font-size: 11.0PT; color: #000000; '><strong>1. Supervised Learning
+</strong></span></h4><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Supervised learning is the most common type of machine learning. In this approach, a model is trained on a labeled dataset, which means that the input data is paired with the correct output. The model learns to make predictions or classifications based on this training data.
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>How It Works</strong></span><span style=''>: During training, the algorithm makes predictions, compares them to the actual outcomes, and adjusts its parameters to improve accuracy.
+</span></li><li><span style=''><strong>Business Example</strong></span><span style=''>:
+</span></li><li><span style=''><strong>Email Spam Detection</strong></span><span style=''>: Email services use supervised learning to classify emails as "spam" or "not spam" based on past data. The model is trained on a dataset of emails labeled as spam or not, learning to identify the characteristics of each category. This helps in reducing clutter and improving user experience.
+</span></li></ul><h4 style='padding-top: 12.0PT; padding-bottom: 2.0PT; direction: ltr; '><span style='font-size: 11.0PT; color: #000000; '><strong>2. Unsupervised Learning
+</strong></span></h4><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Unsupervised learning involves training a model on data that is not labeled. The goal here is to uncover hidden patterns or intrinsic structures within the data without prior knowledge of the outcomes.
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>How It Works</strong></span><span style=''>: The algorithm analyzes the input data and groups it into clusters based on similarities or identifies patterns without being told what to look for.
+</span></li><li><span style=''><strong>Business Example</strong></span><span style=''>:
+</span></li><li><span style=''><strong>Customer Segmentation</strong></span><span style=''>: Businesses often use unsupervised learning for segmenting their customer base. By analyzing purchasing behavior, the algorithm can group customers into distinct segments based on their buying habits, allowing for targeted marketing strategies and personalized experiences.
+</span></li></ul><h4 style='padding-top: 12.0PT; padding-bottom: 2.0PT; direction: ltr; '><span style='font-size: 11.0PT; color: #000000; '><strong>3. Reinforcement Learning
+</strong></span></h4><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Reinforcement learning is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize some notion of cumulative reward. The agent receives feedback in the form of rewards or penalties, allowing it to learn from its actions.
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>How It Works</strong></span><span style=''>: The algorithm takes actions, receives feedback, and adjusts its strategy over time to achieve better outcomes. It’s similar to training a pet with treats and corrections.
+</span></li><li><span style=''><strong>Business Example</strong></span><span style=''>:
+</span></li><li><span style=''><strong>Dynamic Pricing in E-commerce</strong></span><span style=''>: Companies like Amazon use reinforcement learning to adjust prices dynamically based on various factors like demand, competition, and customer behavior. The system learns the best pricing strategies by analyzing customer responses to price changes, aiming to maximize sales and profits.
+</span></li></ul><p class="normal_text" style='padding-top: 14.0PT; direction: ltr; '><span style=''><strong>Bringing It All Together
+</strong></span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Understanding these three types of learning is essential for harnessing the full potential of machine learning and, subsequently, </span><span style=''><em>Generative AI</em></span><span style=''>. Each type offers unique advantages and can be applied to different business challenges. By choosing the right approach, organizations can unlock valuable insights, improve customer experiences, and drive operational efficiencies.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>In the next section, we will explore machine learning models in more detail, including their use cases and limitations, to further enhance our understanding of this dynamic field.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Key Traditional ML Models, Use Cases, and Limitations
+</span></h3><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Considering the rise of deep learning, one might assume that traditional machine learning (ML) models are no longer relevant. However, even today, </span><span style=''><strong>there are specific use cases where traditional models may be the better option.</strong></span><span style=''> While deep learning dominates tasks that involve unstructured data (e.g., images, text) and complex patterns, traditional models still shine in scenarios that involve structured data, smaller datasets, or where interpretability is crucial.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Although a deep dive into each traditional model isn’t necessary for mastering generative AI, </span><span style=''><strong>having a basic understanding is essential</strong></span><span style=''>. Let’s explore these key models, their real-world applications, and where they excel compared to deep learning.
+</span></p><p class="normal_text" style='padding-top: 14.0PT; direction: ltr; '><span style=''><strong>Real-Life Use Cases Where Traditional Models Excel
+</strong></span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>Fraud Detection in Financial Transactions
+</strong></span></li><li><span style=''><strong>Model</strong></span><span style=''>: Logistic Regression, Decision Trees
+</span></li><li><span style=''><strong>Why Better</strong></span><span style=''>: Fraud detection involves structured data like transaction details, amounts, and locations. Traditional models excel at processing such data and provide transparency, which is crucial for decision-making in financial institutions.
+</span></li><li><span style=''><strong>Customer Churn Prediction
+</strong></span></li><li><span style=''><strong>Model</strong></span><span style=''>: Random Forests, Support Vector Machines
+</span></li><li><span style=''><strong>Why Better</strong></span><span style=''>: Churn prediction uses well-structured data like customer demographics, purchase history, and interactions. Traditional models are efficient in analyzing structured datasets and provide interpretable results, enabling businesses to understand customer behavior better.
+</span></li><li><span style=''><strong>Credit Scoring in Banking
+</strong></span></li><li><span style=''><strong>Model</strong></span><span style=''>: Logistic Regression
+</span></li><li><span style=''><strong>Why Better</strong></span><span style=''>: For credit scoring, structured data (income, credit history, etc.) is key. Logistic regression offers simplicity and interpretability, crucial for regulatory reasons in banking. Banks prefer models that offer transparent decision-making over complex deep learning models.
+</span></li><li><span style=''><strong>Medical Diagnosis (with Structured Data)
+</strong></span></li><li><span style=''><strong>Model</strong></span><span style=''>: Decision Trees, Random Forests
+</span></li><li><span style=''><strong>Why Better</strong></span><span style=''>: In healthcare, diagnostic models often rely on structured data such as patient records and lab results. Traditional models like decision trees offer transparency, which helps medical professionals understand why a certain diagnosis was made, making them easier to trust.
+</span></li></ul><p class="normal_text" style='padding-top: 14.0PT; direction: ltr; '><span style=''><strong>Limitations of Traditional Models Compared to Deep Learning
+</strong></span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Despite their usefulness, traditional models have certain limitations, especially when compared to deep learning:
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>Inability to Handle Unstructured Data</strong></span><span style=''>:Traditional models work well with structured, tabular data but </span><span style=''><strong>struggle with unstructured data</strong></span><span style=''> like images, text, or audio. Deep learning, especially </span><span style=''><strong>Convolutional Neural Networks (CNNs)</strong></span><span style=''> for image data and </span><span style=''><strong>Transformers</strong></span><span style=''> for text, is much better suited for these tasks.
+</span></li><li><span style=''><strong>Example</strong></span><span style=''>: Deep learning models outperform traditional models in image classification and natural language processing tasks, such as identifying objects in images or understanding the sentiment of text.
+</span></li><li><span style=''><strong>Feature Engineering Requirement</strong></span><span style=''>:Traditional models require </span><span style=''><strong>significant manual feature engineering</strong></span><span style=''>, which involves selecting, transforming, and creating features from raw data. Deep learning models, by contrast, </span><span style=''><strong>automatically learn features</strong></span><span style=''> from raw data through layers of neurons.
+</span></li><li><span style=''><strong>Example</strong></span><span style=''>: In image classification, CNNs automatically learn features like edges and textures, while traditional models would require hand-engineered features.
+</span></li><li><span style=''><strong>Limited Ability to Model Complex Relationships</strong></span><span style=''>:Traditional models are often limited to linear relationships unless explicitly adapted. </span><span style=''><strong>Deep learning excels at modeling complex, nonlinear relationships</strong></span><span style=''> due to its deep, multi-layered architecture.
+</span></li><li><span style=''><strong>Example</strong></span><span style=''>: Deep learning models such as </span><span style=''><strong>Recurrent Neural Networks (RNNs)</strong></span><span style=''> and transformers are far better at tasks like language translation, where the context and relationships between words are critical.
+</span></li><li><span style=''><strong>Scalability Issues</strong></span><span style=''>:While traditional models perform well on small- to medium-sized datasets, they </span><span style=''><strong>struggle with scalability</strong></span><span style=''> when dealing with massive datasets. Deep learning models, on the other hand, are designed to handle large-scale data and complex tasks.
+</span></li><li><span style=''><strong>Example</strong></span><span style=''>: In tasks like facial recognition on millions of images, deep learning models significantly outperform traditional models in both accuracy and speed.
+</span></li></ul><table><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Level
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Resource
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Comments
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Overview
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Intermediate
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''> </span><span style='color: #1155cc; '><a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF" style="color: #1155cc; ">Machine Learning - YouTube</a></span><span style=''> 
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>StatQuest videos are amazing for learning ML, with clear visuals that make complex concepts easy to understand.
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Expert
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style='color: #1155cc; '><a href="https://www.youtube.com/playlist?list=PLIg1dOXc_acbdJo-AE5RXpIM_rvwrerwR" style="color: #1155cc; ">Introduction to Machine Learning - YouTube</a></span><span style=''> 
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>This course by IIT Kanpur professor Sudeshna Sarkar is great for diving into the details of traditional machine learning models. It may seem a bit dated, but stick with it—it's full of valuable insights.
+</span></p></td></tr></table><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>I highly recommend taking the time to learn and understand linear and/or logistic regression at an intermediate level from the provided sources. Gaining this knowledge will greatly enhance your understanding of neural networks. Additionally, I suggest checking out this video on the </span><span style='color: #1155cc; '><a href="https://www.youtube.com/watch?v=SPExESsO4ok" style="color: #1155cc; ">machine learning model development lifecycle</a></span><span style=''>.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>What is Deep Learning, Why It’s Important, and Key Applications (NLP, CV, and More)
+</span></h3><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Now, this is where the real magic starts—where we unlock the true power of AI! Kudos to you for reaching this part of the journey, as we’re getting very close to diving into the world of Generative AI. Trust me, things are about to get even more exciting from here on.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>But first, let’s take a moment to understand </span><span style=''><strong>deep learning</strong></span><span style=''>, and then we’ll dive deeper into how it plays a crucial role in AI development.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''><strong>Deep learning (DL)</strong></span><span style=''> is a subset of machine learning that utilizes neural networks with multiple layers (hence “deep”) to automatically learn patterns from data. What sets it apart from traditional machine learning is its ability to handle unstructured data, like images, audio, and text, without needing to manually define features. Deep learning models automatically extract high-level features, making them extremely powerful for complex tasks that traditional methods struggle with.
+</span></p><h4 style='padding-top: 12.0PT; padding-bottom: 2.0PT; direction: ltr; '><span style='font-size: 11.0PT; color: #000000; '><strong>Why is Deep Learning Important?
+</strong></span></h4><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Deep learning is essential because it enables systems to learn from vast amounts of data and capture intricate patterns that were previously unfeasible with traditional models. The power to handle immense datasets and automatically learn meaningful representations is what makes DL revolutionary for modern AI applications, ranging from natural language processing (NLP) to computer vision (CV), and beyond.
+</span></p><h4 style='padding-top: 12.0PT; padding-bottom: 2.0PT; direction: ltr; '><span style='font-size: 11.0PT; color: #000000; '><strong>How We Moved from Traditional Models to Deep Learning Models
+</strong></span></h4><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Initially, traditional models like decision trees and logistic regression were enough to handle structured data. However, as the world generated more unstructured data, like images, videos, and natural language, these traditional models hit their limits. Enter deep learning—powered by advances in neural network architectures, increased computational power (thanks to GPUs), and access to larger datasets, allowing it to outperform traditional methods in tasks requiring high complexity.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Historically, early neural networks were limited in scope and computational capacity. But in the 2000s, with breakthroughs like </span><span style=''><strong>convolutional neural networks (CNNs)</strong></span><span style=''> for images and </span><span style=''><strong>recurrent neural networks (RNNs)</strong></span><span style=''> for sequences, deep learning became the go-to solution for complex problems in AI.
+</span></p><h4 style='padding-top: 12.0PT; padding-bottom: 2.0PT; direction: ltr; '><span style='font-size: 11.0PT; color: #000000; '><strong>Key Applications of Deep Learning:
+</strong></span></h4><ul style="padding-left: 20.0px;"><li><span style=''><strong>Natural Language Processing (NLP)</strong></span><span style=''>: Deep learning models like transformers (e.g., BERT, GPT) have revolutionized NLP, enabling machines to understand, generate, and translate human language with remarkable accuracy.
+</span></li><li><span style=''><strong>Example</strong></span><span style=''>: Chatbots like GPT, automated language translation, and sentiment analysis tools.
+</span></li><li><span style=''><strong>Computer Vision (CV)</strong></span><span style=''>: With DL models like CNNs, computers can now “see” and understand images and video content, allowing them to perform tasks like object detection and facial recognition.
+</span></li><li><span style=''><strong>Example</strong></span><span style=''>: Autonomous vehicles that recognize objects, AI-driven medical imaging for diagnostics.
+</span></li><li><span style=''><strong>Speech Recognition</strong></span><span style=''>: DL models like RNNs and transformers can recognize and interpret spoken language, forming the backbone of voice assistants and speech-to-text tools.
+</span></li><li><span style=''><strong>Example</strong></span><span style=''>: Siri, Alexa, and Google Assistant rely on deep learning for speech processing.
+</span></li><li><span style=''><strong>Autonomous Systems</strong></span><span style=''>: Deep learning is crucial for enabling self-driving cars, drones, and robotics, where real-time decision-making is needed by analyzing various sensory data.
+</span></li><li><span style=''><strong>Example</strong></span><span style=''>: Tesla’s Autopilot uses deep learning to navigate roads and make driving decisions.
+</span></li></ul><p class="normal_text" style='direction: ltr; '><span style=''>Now that we have a high-level overview of deep learning, we should start with the first and basic concept: </span><span style=''><strong>Neural Networks</strong></span><span style=''>.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>What are Neural Networks, Various Types of NNs?
+</span></h3><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Now that we’ve set the stage with deep learning, let’s dive into one of its core components: </span><span style=''><strong>Neural Networks</strong></span><span style=''>. Understanding neural networks is crucial as they serve as the foundation for many deep learning applications.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''><strong>What are Neural Networks?</strong></span><span style=''> Neural networks are computational models inspired by the way the human brain processes information. They consist of interconnected layers of nodes (neurons) that work together to transform input data into output predictions or classifications. Each connection between neurons has an associated weight that is adjusted during the training process, allowing the network to learn from the data.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>A basic neural network consists of three types of layers:
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>Input Layer</strong></span><span style=''>: This layer receives the raw input data.
+</span></li><li><span style=''><strong>Hidden Layers</strong></span><span style=''>: These layers perform various computations and transformations on the data. A network can have one or more hidden layers, and deeper networks with multiple hidden layers are often referred to as "deep neural networks."
+</span></li><li><span style=''><strong>Output Layer</strong></span><span style=''>: This layer produces the final output, which can be a classification, a probability, or a continuous value, depending on the task at hand.</span><span style=''><strong>
+</strong></span></li></ul><table><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Level
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Resource
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Comments
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Overview
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Intermediate
+</span></p></td><td><li><span style='color: #1155cc; '><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi" style="color: #1155cc; ">Neural networks - YouTube</a></span><span style=''> 
+</span></li><li><span style='color: #1155cc; '><a href="https://www.youtube.com/playlist?list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So" style="color: #1155cc; ">Beginner Introduction to Neural Networks - YouTube</a></span><span style=''> 
+</span></li></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>The first link provides a visual explanation of neural networks, focusing on the mathematical aspects (Chp 1-4), while the second link starts with the basics and clearly explains each concept with an emphasis on coding.
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Expert
+</span></p></td><td><li><span style='color: #1155cc; '><a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv" style="color: #1155cc; ">Lecture Collection | Convolutional Neural Networks for Visual Recognition (Spring 2017) - YouTube</a></span><span style=''> 
+</span></li><li><span style='color: #1155cc; '><a href="https://cs231n.stanford.edu/2017/syllabus.html" style="color: #1155cc; ">Syllabus | CS 231N</a></span><span style=''> 
+</span></li></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>You can watch the video or read the notes for this excellent Stanford course to gain an in-depth understanding of neural networks. Lectures 3, 4, 6, and 7 will provide the essential knowledge on the topic.
+</span></p></td></tr></table><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>I recommend taking the time to understand neural networks, as they are the building blocks of deep learning and generative AI. The time spent on this foundational knowledge will pay off later.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''><strong>Various Types of Neural Networks</strong></span><span style=''> There are several types of neural networks, each designed to handle specific types of data and tasks. Here are a few key types:
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>Feedforward Neural Networks (FNN)</strong></span><span style=''>:
+</span></li><li><span style=''><strong>Description</strong></span><span style=''>: The simplest type of neural network where connections between nodes do not form cycles. Data flows in one direction, from input to output.
+</span></li><li><span style=''><strong>Use Case</strong></span><span style=''>: Basic tasks like regression and classification.
+</span></li><li><span style=''><strong>Convolutional Neural Networks (CNN)</strong></span><span style=''>:
+</span></li><li><span style=''><strong>Description</strong></span><span style=''>: Specialized for processing grid-like data, particularly images. CNNs use convolutional layers to automatically detect patterns and features in the data.
+</span></li><li><span style=''><strong>Use Case</strong></span><span style=''>: Image classification, object detection, and image segmentation.
+</span></li><li><span style=''><strong>Recurrent Neural Networks (RNN)</strong></span><span style=''>:
+</span></li><li><span style=''><strong>Description</strong></span><span style=''>: Designed for sequential data, RNNs have connections that allow information to persist over time. This makes them suitable for tasks where context matters, such as time series analysis.
+</span></li><li><span style=''><strong>Use Case</strong></span><span style=''>: Natural language processing (NLP), speech recognition, and music generation.
+</span></li><li><span style=''><strong>Long Short-Term Memory Networks (LSTM)</strong></span><span style=''>:
+</span></li><li><span style=''><strong>Description</strong></span><span style=''>: A type of RNN that can learn long-term dependencies and mitigate the vanishing gradient problem. LSTMs have a special architecture that enables them to remember information for extended periods.
+</span></li><li><span style=''><strong>Use Case</strong></span><span style=''>: Language translation, sentiment analysis, and any task requiring understanding of context over time.
+</span></li><li><span style=''><strong>Generative Adversarial Networks (GAN)</strong></span><span style=''>:
+</span></li><li><span style=''><strong>Description</strong></span><span style=''>: Comprising two neural networks (the generator and the discriminator) that compete against each other. The generator creates fake data, while the discriminator tries to distinguish between real and fake data.
+</span></li><li><span style=''><strong>Use Case</strong></span><span style=''>: Image generation, video synthesis, and data augmentation.
+</span></li></ul><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>For those looking to quickly jump into generative AI, a basic understanding of deep learning and neural networks is sufficient—there’s no need to delve deeply into the various types. However, for those interested in exploring further, I found these two resources particularly useful for understanding the concepts of different types of neural networks and deep learning in more depth.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><table><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Resource
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Comments
+</span></p></td></tr><tr><td><li><span style='color: #1155cc; '><a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv" style="color: #1155cc; ">Lecture Collection | Convolutional Neural Networks for Visual Recognition (Spring 2017) - YouTube</a></span><span style=''>
+</span></li><li><span style='color: #1155cc; '><a href="https://cs231n.stanford.edu/2017/syllabus.html" style="color: #1155cc; ">Syllabus | CS 231N</a></span><span style=''> 
+</span></li></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>This Stanford course is an excellent way to deepen your understanding of deep learning (CV).
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style='color: #1155cc; '><a href="https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r" style="color: #1155cc; ">Deep Learning for Computer Vision - YouTube</a></span><span style=''> 
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>I appreciate how the other course covers topics like RNNs and attention mechanisms. (CV)
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style='color: #1155cc; '><a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4" style="color: #1155cc; ">Stanford CS224N: Natural Language Processing with Deep Learning | 2023 - YouTube</a></span><span style=''> 
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>If you're interested in the NLP track, this course is an excellent choice. (NLP)
+</span></p></td></tr></table><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''><strong>Why Neural Networks?</strong></span><span style=''> Neural networks are favored in many applications due to their ability to:
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>Model Complex Relationships</strong></span><span style=''>: They can capture nonlinear relationships in data, which is often impossible for traditional models.
+</span></li><li><span style=''><strong>Automatic Feature Extraction</strong></span><span style=''>: Neural networks learn relevant features from raw data without the need for manual feature engineering, making them highly effective for tasks with large amounts of unstructured data.
+</span></li><li><span style=''><strong>Scalability</strong></span><span style=''>: They can scale to accommodate vast datasets and complex architectures, allowing them to improve as more data becomes available.
+</span></li></ul><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>The Evolution of Neural Networks: From Neural Networks to Modern AI
+</span></h3><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>🎉 </span><span style=''><strong>Congratulations to Everyone!</strong></span><span style=''> 🎉
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>If you’ve made it this far, give yourself a round of applause! You’re just moments away from diving into the fascinating world of generative AI.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>For those who may have skipped over the types of neural networks, don’t worry—I’ve got you covered! Let’s take a </span><span style=''><strong>quick journey through the evolution of AI</strong></span><span style=''>, from humble neural networks to cutting-edge models like LLMs.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Once upon a time in the realm of artificial intelligence, visionary researchers sought to replicate how the human brain processes information. They began with basic neural networks—simple yet powerful architectures made up of interconnected nodes, much like neurons in our brains. These networks could model complex relationships and solve various problems. However, they soon faced challenges with sequential data and long-range dependencies.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>As they pressed on, the introduction of </span><span style=''><strong>Convolutional Neural Networks (CNNs)</strong></span><span style=''> revolutionized image processing. With their ability to automatically detect features like edges and textures, CNNs transformed tasks like image classification and object detection, eliminating the need for manual feature extraction and allowing them to learn spatial hierarchies effortlessly.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>But the journey didn’t stop there. Researchers turned their focus to sequential data and language, giving rise to </span><span style=''><strong>Recurrent Neural Networks (RNNs)</strong></span><span style=''>. These networks could remember previous inputs, making them ideal for tasks like language modeling and time series forecasting. Yet, they struggled with the vanishing gradient problem, which hindered their ability to retain information over long sequences.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Then came a breakthrough: </span><span style=''><strong>Long Short-Term Memory networks (LSTMs)</strong></span><span style=''>. With memory cells and gating mechanisms, LSTMs could hold onto information for extended periods. This advancement made tasks like language translation and speech recognition much more feasible, empowering researchers to tackle complex problems with renewed confidence.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>The ultimate leap, however, was just around the corner. As the demand for sophistication grew, </span><span style=''><strong>Transformers</strong></span><span style=''> emerged—a revolutionary architecture that employed self-attention mechanisms instead of traditional recurrence. This allowed models to process entire sequences in parallel, capturing relationships between all elements simultaneously and significantly enhancing performance.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>With this newfound power, transformers became the backbone of modern AI, transforming tasks such as machine translation and leading to the creation of groundbreaking models like </span><span style=''><strong>BERT</strong></span><span style=''> and </span><span style=''><strong>GPT</strong></span><span style=''>. These generative AI models could produce coherent, contextually relevant text that mimicked human language with astonishing accuracy, opening up a world of possibilities!
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Today, transformers are at the forefront of AI, marking a remarkable journey from simple neural networks to sophisticated generative models. Each innovation has unveiled new chapters in this evolving story, showcasing incredible advancements in how machines understand and generate human language.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>So, let’s start with this video </span><span style=''>, which covers the concept of generative AI at a high level, and then we can dive deeper into each topic. As we continue to explore the realm of generative AI, we can’t help but feel excited about the future and the untold stories that await!
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>I hope you found the video incredibly insightful! A big shoutout to Henrik for providing such a well-thought-out explanation of this complex topic. Now that we have some foundational pieces in our minds, let’s dive deeper into each one.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>First up, we’ll explore </span><span style=''><strong>LLMs</strong></span><span style=''> and </span><span style=''><strong>transformers</strong></span><span style=''> with the excellent explanations from </span><span style=''><strong>3Blue1Brown</strong></span><span style=''>, one of my favorite channels. Let’s focus on Chapters 5, 6, and 7 of </span><span style='color: #1155cc; '><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi" style="color: #1155cc; ">Neural networks - YouTube</a></span><span style=''> to enhance our understanding!
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Also, if you're interested, I highly recommend reading the paper "</span><span style='color: #1155cc; '><a href="https://arxiv.org/pdf/1706.03762" style="color: #1155cc; ">Attention Is All You Need</a></span><span style=''>" after the video to clarify the concepts even further.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Large Language Models (LLMs): Types, Differences and Use Cases
+</span></h3><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Folks, we are here—can you believe it? As promised, we’ve entered the world of </span><span style=''><strong>Generative AI</strong></span><span style=''>, and from here on, it’s all about fun and excitement! A big, big congratulations to all of you for reaching this milestone; the journey to get here took me over six years, and you’ve accomplished it in such a short time span—truly commendable!
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Now, let’s dive into the fascinating realm of </span><span style=''><strong>Large Language Models (LLMs)</strong></span><span style=''>. These models are like the superstars of the AI world, showcasing how far we’ve come in our quest to understand and generate human language. Imagine a virtual assistant that not only understands your questions but also crafts responses that are contextually rich and coherent. That’s the magic of LLMs!
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''><strong>Types of LLMs
+</strong></span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>GPT (Generative Pre-trained Transformer)</strong></span><span style=''>: One of the most well-known LLMs, GPT, is designed to generate human-like text based on the prompts it receives. It’s like having a conversation with a highly knowledgeable friend who can discuss a myriad of topics. With versions evolving from GPT-2 to GPT-3 and beyond, the ability to understand context and generate text has reached astounding heights.
+</span></li><li><span style=''><strong>BERT (Bidirectional Encoder Representations from Transformers)</strong></span><span style=''>: Unlike GPT, which is a generative model, BERT is designed for understanding context in language. It reads text in both directions (left-to-right and right-to-left), enabling it to grasp nuances and relationships between words. BERT excels in tasks like sentiment analysis and question answering, making it a powerhouse for understanding human language.
+</span></li><li><span style=''><strong>T5 (Text-to-Text Transfer Transformer)</strong></span><span style=''>: This innovative model takes a unique approach by treating every NLP task as a text-to-text problem. Whether it’s translating languages, summarizing articles, or answering questions, T5 converts everything into a text format, simplifying the learning process and showcasing versatility.
+</span></li><li><span style=''><strong>XLNet</strong></span><span style=''>: Building on the strengths of BERT, XLNet enhances the model’s ability to predict words in a sentence by considering the permutations of word order. This approach captures dependencies more effectively and improves performance on various language tasks.
+</span></li></ul><p class="normal_text" style='padding-top: 14.0PT; direction: ltr; '><span style=''><strong>Difference Between BERT and LLMs
+</strong></span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>Model Type</strong></span><span style=''>:
+</span></li><li><span style=''><strong>BERT (Bidirectional Encoder Representations from Transformers)</strong></span><span style=''>:
+</span></li><li><span style=''>BERT is a specific type of model designed primarily for understanding language. It is a transformer-based model that processes text bidirectionally, meaning it looks at the context of words in both directions (before and after) simultaneously.
+</span></li><li><span style=''><strong>LLMs (Large Language Models)</strong></span><span style=''>:
+</span></li><li><span style=''>LLMs are broader and encompass various models, including generative models like GPT. LLMs can generate text, complete sentences, and engage in conversations. They can either be unidirectional (like GPT) or bidirectional (like BERT) depending on their architecture.
+</span></li><li><span style=''><strong>Primary Function</strong></span><span style=''>:
+</span></li><li><span style=''><strong>BERT</strong></span><span style=''>:
+</span></li><li><span style=''>BERT is mainly focused on tasks that require understanding the context and relationships within text. It excels in classification, question-answering, and other comprehension tasks.
+</span></li><li><span style=''><strong>LLMs</strong></span><span style=''>:
+</span></li><li><span style=''>LLMs are designed to generate coherent and contextually relevant text. They are versatile in handling various tasks, including text generation, completion, summarization, and translation.
+</span></li><li><span style=''><strong>Training Objective</strong></span><span style=''>:
+</span></li><li><span style=''><strong>BERT</strong></span><span style=''>:
+</span></li><li><span style=''>BERT uses a masked language modeling objective, where certain words in a sentence are masked, and the model learns to predict them based on the surrounding context.
+</span></li><li><span style=''><strong>LLMs</strong></span><span style=''>:
+</span></li><li><span style=''>LLMs like GPT typically use an autoregressive training objective, predicting the next word in a sequence based on the preceding words, making them suitable for generating text.
+</span></li></ul><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''><strong>BERT Use Cases</strong></span><span style=''>:
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>Sentiment Analysis</strong></span><span style=''>: Analyzing customer feedback or social media posts to determine positive or negative sentiment.
+</span></li><li><span style=''><strong>Question Answering</strong></span><span style=''>: Providing precise answers to questions based on a given context, such as FAQs or knowledge bases.
+</span></li><li><span style=''><strong>Named Entity Recognition (NER)</strong></span><span style=''>: Identifying and classifying entities (like names, dates, and locations) within a text for various applications, including information extraction.
+</span></li><li><span style=''><strong>Text Classification</strong></span><span style=''>: Categorizing documents or messages into predefined classes, such as spam detection or topic categorization.
+</span></li></ul><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''><strong>LLM Use Cases</strong></span><span style=''>:
+</span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>Content Generation</strong></span><span style=''>: Creating articles, blog posts, or marketing copy based on prompts, allowing for creative and dynamic writing.
+</span></li><li><span style=''><strong>Chatbots and Virtual Assistants</strong></span><span style=''>: Engaging users in conversation, providing information, and resolving queries in customer support applications.
+</span></li><li><span style=''><strong>Language Translation</strong></span><span style=''>: Translating text between languages while maintaining the context and meaning, enabling global communication.
+</span></li><li><span style=''><strong>Text Summarization</strong></span><span style=''>: Condensing long articles or documents into concise summaries while preserving key information.
+</span></li></ul><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><h3 style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>The Generative AI Adventure Begins…
+</span></h3><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Friends, as we stand at the threshold of this exciting journey, I want to take a moment to express my heartfelt appreciation for all the hard work you’ve put in to reach this stage. Each one of you has shown incredible dedication, and together we’ve navigated the fascinating world of Generative AI.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>To be completely honest, I’m right there with you, diving deep into the realm of Generative AI myself—particularly in the exciting field of enterprise AI. My quest is to learn how to develop Generative AI solutions and bring them to life in production settings. While this field is still in its infancy, it’s evolving at an astonishing pace, and the advancements we witness every day are truly remarkable.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Now is the perfect time for us to explore Generative AI use cases and enhance our skills. Imagine being at the forefront of a technological revolution, where our ideas can shape the future of how businesses operate and interact with their customers!
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>With that in mind, I’ll be sharing resources that I’ve found useful on this journey. Whether it’s articles, videos, or courses, I’m committed to curating valuable information that can help us all grow in this exciting domain. And rest assured, I’ll keep working on formulating a comprehensive plan for diving deeper into Generative AI and posting more resources, so be sure to keep checking back here!
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>As we embark on this adventure together, I can’t wait to see what we’ll achieve. Here’s to the amazing possibilities that lie ahead in the world of Generative AI!
+</span></p><table><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Topic
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Resource
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Comments
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Gen AI 101: Technology Choices
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style='color: #1155cc; '><a href="https://www.phdata.io/blog/gen-ai-101-technology-choices-part-1/" style="color: #1155cc; ">Gen AI 101: Technology Choices (Part 1) | phData</a></span><span style=''> 
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Be sure to check out all four parts of this excellent article by phData. It’s a fantastic resource for understanding how to build an enterprise AI solution!
+</span></p></td></tr><tr><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>Gen AI for beginners
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style='color: #1155cc; '><a href="https://microsoft.github.io/generative-ai-for-beginners/#/" style="color: #1155cc; ">Generative AI for Beginners</a></span><span style=''> 
+</span></p></td><td><p class="normal_text" style='line-height: 1.0; direction: ltr; '><span style=''>21 Lessons teaching everything you need to know to start building Generative AI applications
+</span></p></td></tr></table><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>When developing generative AI applications, it’s crucial to keep in mind their capabilities and limitations. Here are some insights specifically tailored for the finance and banking sector:
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''><strong>When Not to Use Generative AI:
+</strong></span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>High-Stakes Scenarios</strong></span><span style=''>: Avoid applications where errors or inaccuracies could lead to significant harm, such as disease diagnostics.
+</span></li><li><span style=''><strong>Time-Sensitive Requests</strong></span><span style=''>: Be cautious in contexts requiring rapid responses, like high-frequency trading, where every millisecond counts.
+</span></li><li><span style=''><strong>Unconstrained Generation</strong></span><span style=''>: Refrain from open-ended generation that may inadvertently produce harmful or biased content, such as legal document creation.
+</span></li><li><span style=''><strong>Need for Explainability</strong></span><span style=''>: Steer clear of applications that require a clear understanding of potential failure modes, like credit scoring.
+</span></li><li><span style=''><strong>Numerical Reasoning</strong></span><span style=''>: Generative AI isn’t suitable for applications that demand precise numerical reasoning, from basic calculations to complex optimizations, such as demand forecasting.
+</span></li></ul><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''><strong>Four Promising Areas for Generative AI in Finance and Banking:
+</strong></span></p><ul style="padding-left: 20.0px;"><li><span style=''><strong>Concision (Virtual Expert)</strong></span><span style=''>: Use generative AI to summarize and extract insights from unstructured data sources, enabling efficient information retrieval and assisting in problem-solving. This can lead to substantial productivity gains—up to 80%—in verifying news and social media statements.
+</span></li><li><span style=''><strong>Content Generation</strong></span><span style=''>: Streamline the creation of contracts, NDAs, and other documents to reduce manual work, while also generating personalized messaging and product recommendations.
+</span></li><li><span style=''><strong>Customer Engagement</strong></span><span style=''>: Implement intelligent chatbots for enhanced 24/7 customer support, improving customer experience and satisfaction.
+</span></li><li><span style=''><strong>Coding Acceleration</strong></span><span style=''>: Leverage generative AI to accelerate coding processes, making development more efficient and effective.
+</span></li></ul><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>By understanding both the potential and the limitations of generative AI, we can harness its capabilities more effectively in the finance and banking industry.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>Also, checkout </span><span style=''> posted by IBM.
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><h3 style='padding-top: 14.0PT; direction: ltr; '><span style='font-size: 13.0PT; color: #000000; '><strong>
+</strong></span></h3><h3 style='padding-top: 14.0PT; direction: ltr; '><span style=''>
+</span></h3><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='padding-top: 12.0PT; padding-bottom: 12.0PT; direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p><p class="normal_text" style='direction: ltr; '><span style=''>
+</span></p>
+</div><footer>
+    Created for free by
+    <a href="https://gdocweb.com" target="_blank">gdocweb</a>. <br>
+    Convert Google Docs files to full fledged websites <b>for free</b>.
+</footer>
+<script>
+function toggleMenu() {
+    var header = document.querySelector('header');
+    header.classList.toggle('nav-active');
+}
+
+function toggleSubmenu(event, submenuId) {
+    var submenu = document.getElementById(submenuId);
+    var parentLi = submenu.parentElement;
+    parentLi.classList.toggle('submenu-active');
+    event.stopPropagation();
+}
+
+window.onclick = function(event) {
+    var submenus = document.getElementsByClassName("submenu");
+    for (var i = 0; i < submenus.length; i++) {
+        var parentLi = submenus[i].parentElement;
+        if (!parentLi.contains(event.target)) {
+            parentLi.classList.remove('submenu-active');
+        }
+    }
+}
+</script>
+</body>
+</html>
